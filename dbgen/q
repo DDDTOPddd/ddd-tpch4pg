@@ -1,0 +1,15 @@
+                                                List of databases
+   Name    | Owner  | Encoding | Locale Provider | Collate |  Ctype  | ICU Locale | ICU Rules | Access privileges 
+-----------+--------+----------+-----------------+---------+---------+------------+-----------+-------------------
+ dddtop    | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+ duckdb    | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+ multiplan | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+ postgres  | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+ template0 | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | =c/dddtop        +
+           |        |          |                 |         |         |            |           | dddtop=CTc/dddtop
+ template1 | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | =c/dddtop        +
+           |        |          |                 |         |         |            |           | dddtop=CTc/dddtop
+ tpch_idx  | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+ tpchtest  | dddtop | UTF8     | libc            | C.UTF-8 | C.UTF-8 |            |           | 
+(8 rows)
+
