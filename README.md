@@ -1,4 +1,4 @@
-tpch-kit
+dddtpch4pg
 ========
 
 TPC-H 基准套件（含若干修改/扩展）
@@ -34,8 +34,8 @@ sudo yum install git make gcc
 然后执行以下命令克隆仓库并构建工具：
 
 ```
-git clone https://github.com/gregrahn/tpch-kit.git
-cd tpch-kit/dbgen
+git clone https://github.com/DDDTOPddd/ddd-tpch4pg.git
+cd ddd-tpch4pg/dbgen
 make MACHINE=LINUX DATABASE=POSTGRESQL
 ```
 
@@ -50,8 +50,8 @@ xcode-select --install
 然后执行以下命令克隆仓库并构建工具：
 
 ```
-git clone https://github.com/gregrahn/tpch-kit.git
-cd tpch-kit/dbgen
+git clone https://github.com/DDDTOPddd/ddd-tpch4pg.git
+cd ddd-tpch4pg/dbgen
 make MACHINE=MACOS DATABASE=POSTGRESQL
 ```
 
@@ -62,14 +62,14 @@ make MACHINE=MACOS DATABASE=POSTGRESQL
 请正确设置以下环境变量：
 
 ```
-export DSS_CONFIG=/.../tpch-kit/dbgen
+export DSS_CONFIG=/.../ddd-tpch4pg/dbgen
 export DSS_QUERY=$DSS_CONFIG/queries
 export DSS_PATH=/path-to-dir-for-output-files
 ```
 
 ### SQL 方言
 
-有关有效 `DATABASE` 值，请参阅 `Makefile`。每种方言的详细信息见 `tpcd.h`。如有需要，可调整 `tpch-kit/dbgen/queries` 中的查询模板。
+有关有效 `DATABASE` 值，请参阅 `Makefile`。每种方言的详细信息见 `tpcd.h`。如有需要，可调整 `ddd-tpch4pg/dbgen/queries` 中的查询模板。
 
 ### 数据生成
 

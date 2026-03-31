@@ -1,5 +1,5 @@
 # 1. 设置环境变量，指向你的 tpch-kit/dbgen 目录
-export DSS_CONFIG=/home/dddtop/workspace/tpch-kit/dbgen
+export DSS_CONFIG=/home/dddtop/workspace/ddd-tpch4pg/dbgen
 export DSS_QUERY=$DSS_CONFIG/queries
 
 # 2. 定义目标输出路径
